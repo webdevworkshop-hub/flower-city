@@ -5,6 +5,8 @@ export default function Header(){
         
         Header
         
+        <h1>Hello Pratim :)</h1>
+        
         </>
     )
 }
