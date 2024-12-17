@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-base: 16px;
+  --font-sm: 14px;
+  --font-xs: 12px;
+}
+
+@media (max-height: 768px) {
+  :root {
+    --font-base: var(--font-sm);
+  }
+}
+
+@media (max-height: 640px) {
+  :root {
+    --font-base: var(--font-xs);
+  }
+}
+
+html {
+  font-size: var(--font-base);
+}
+
