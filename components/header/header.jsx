@@ -1,12 +1,12 @@
 export default function Header(){
     
     return(
-        <>
+        <header>
         
-        Header
         
-        <h1>Hello Pratim :)</h1>
         
-        </>
+      
+        
+        </header>
     )
 }
