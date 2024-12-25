@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "../ui/sheet";
 
 export default function Header() {
   const NAV_LINKS = [
@@ -77,13 +77,14 @@ export default function Header() {
                 </SheetTrigger>
               </div>
               <SheetContent>
-                <nav className="flex h-full flex-col gap-20">
+              <SheetTitle className="hidden">Navigation Menu</SheetTitle>
+                <nav className="flex h-full flex-col gap-10">
                   <a
                     href="/"
-                    className="relative mx-auto aspect-[79/60] w-[4.9375rem]"
+                    className="relative mx-auto aspect-square w-[5rem] py-1"
                   >
                     <Image
-                      src="/header/logo-dark.png"
+                      src="/header/logo.png"
                       className="object-cover"
                       alt="logo"
                       fill
