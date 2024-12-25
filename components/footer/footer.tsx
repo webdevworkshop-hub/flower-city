@@ -1,9 +1,9 @@
 export default function Footer(){
     return(
-        <>
+        <footer>
         
-        Footer
+            Footer
         
-        </>
+        </footer>
     )
 }
