@@ -23,7 +23,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="group  absolute z-50 flex h-[4.25rem] w-full items-center bg-white/60 px-4 transition-colors duration-500 hover:bg-[#201C26] lg:h-[12vh] lg:gap-[9.875rem]">
+    <header className="group  absolute z-50 flex h-[4.25rem] w-full items-center bg-white/60 px-4 transition-colors duration-500 hover:bg-[#201C26] lg:h-[12vh] lg:gap-[9.875rem] ">
       <div className="container mx-auto flex h-fit justify-between">
         <div>
           <Link href="/" className="my-auto h-fit lg:h-[4.188rem] lg:w-[7rem]">
@@ -51,7 +51,7 @@ export default function Header() {
               <Link
                 key={link.route}
                 href={link.route}
-                className="px-3 py-1 font-montserrat text-xl group-hover:text-background"
+                className="px-3 py-1 group-hover:[text-shadow:_0_2px_4px_rgb(99_102_241_/_0.8)] font-montserrat text-xl group-hover:text-background"
               >
                 {link.title}
               </Link>

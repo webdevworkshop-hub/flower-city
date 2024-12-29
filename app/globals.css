@@ -28,4 +28,9 @@
 html {
   font-size: var(--font-base);
 }
-
+@layer utilities {
+  .contain {
+    max-width: 1512px;
+    margin-inline: auto;
+  }
+}

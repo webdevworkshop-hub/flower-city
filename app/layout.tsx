@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={cn("bg-background text-foreground",montserrat.className,signika.className,spectral.className)}
+        className={cn("bg-background text-foreground", montserrat.variable, signika.variable, spectral.className)}
       >
         {children}
       </body>

@@ -1,4 +1,5 @@
 import Hero from "@/components/homepage/hero";
+import Travel from "@/components/homepage/travel";
 
 export default function Home() {
 
@@ -6,7 +7,7 @@ export default function Home() {
 
         <>
         <Hero/>
-        
+        <Travel/>
         </>
     )
 
