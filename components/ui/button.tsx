@@ -10,11 +10,11 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default: "bg-primary text-background hover:bg-secondary",
-        outline: "border border-primary bg-background",
-        secondary: "bg-secondary-gradient text-secondary-foreground",
+        outline: "border border-foreground  bg-transparent",
+        secondary: "bg-secondary text-background",
       },
       size: {
-        default: "h-9 px-4 py-2 md:h-12 md:px-5 md:py-3",
+        default: "h-9 px-4 py-2 md:h-12 md:px-5 md:py-3 rounded-md",
         icon: "h-9 w-9 md:h-[3.25rem] md:w-[3.25rem]",
       },
     },
