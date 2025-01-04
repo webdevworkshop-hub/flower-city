@@ -31,8 +31,12 @@ const config: Config = {
        "secondary-bg": "var(--secondary-background)",  
         secondary: "var(--text-secondary)",  
       },
+      boxShadow: {
+        "image-box": "rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px", // Add the image-box shadow
+      },
     },
   },
   plugins: [require("@tailwindcss/typography"), require("tailwindcss-animate")],
 };
 export default config;
+
