@@ -9,9 +9,7 @@ export const BLOGS_CONTENT = [
             thumbnail: "/blogs/blog1/thumbnail.jpg",
             img1: "/blogs/blog1/img1.jpg",
             img2: "/blogs/blog1/img2.jpg",
-            
         }
-
     },
     {
         id: 2,
@@ -23,8 +21,6 @@ export const BLOGS_CONTENT = [
             thumbnail: "/blogs/blog1/thumbnail.jpg",
             img1: "/blogs/blog1/img1.jpg",
             img2: "/blogs/blog1/img2.jpg",
-            
         }
-
     }
 ]
